@@ -13,101 +13,98 @@
 				<h1>Task Load Index (TLX)</h1>
 			</header>
 			<section class="step_0">
-				<h2>Step 0: overview of TLX per proband per task</h2>
+				<h2>Step 0: 被験者、タスクごとのTLX概要 </h2>
 				<div id="container"></div>
-				<button>Continue to step 1</button>
+				<button>ステップ１へ</button>
 			</section>
 			<section class="step_1">
-				<h2>Step 1: choose proband and task</h2>
+				<h2>Step 1: 被験者とタスクを選択してください</h2>
 				<div class="cf">
 					<section class="first">
-						<h3>Proband</h3>
-						<h4><label for="create_proband">Create new proband</label></h4>
+						<h3>被験者</h3>
+						<h4><label for="create_proband">被験者を追加</label></h4>
 						<form>
 							<input type="text" id="create_proband" required>
 							<input type="submit" value="Create">
 						</form>
-						<h4>Choose proband</h4>
+						<h4>被験者を選択</h4>
 						<form class="list">
 							<div>
-								<div>
+								<!--<div>
 									<input type="radio" name="probands" id="mathew_ormond" checked>
 									<label for="mathew_ormond">Mathew Ormond</label>
 								</div>
 								<div>
 									<input type="radio" name="probands" id="darcy_phillis">
 									<label for="darcy_phillis">Darcy Phillis</label>
-								</div>
+								</div>-->
 							</div>
 						</form>
 					</section>
 					<section class="second">
-						<h3>Task</h3>
-						<h4><label for="create_task">Create new task</label></h4>
+						<h3>タスク</h3>
+						<h4><label for="create_task">タスクを追加</label></h4>
 						<form>
 							<input type="text" id="create_task" required>
 							<input type="submit" value="Create">
 						</form>
-						<h4>Choose task</h4>
+						<h4>タスクを選択</h4>
 						<form class="list">
 							<div>
-								<div>
+								<!--<div>
 									<input type="radio" name="tasks" id="flight_simulation" checked>
-									<label for="flight_simulation">Flight simulation</label>
-								</div>
-								<div>
-									<input type="radio" name="tasks" id="drinking_beer">
-									<label for="drinking_beer">Drinking beer</label>
-								</div>
+									<label for="flight_simulation">Test</label>
+								</div>-->
 							</div>
 						</form>
 					</section>
 				</div>
-				<button>Continue to step 2</button>
+				<button>ステップ2へ</button>
 				<p class="go_back">or go <a href="#">back to the overview page</a></p>
 			</section>
 			<section class="step_2">
-				<h2>Step 2: rating scales</h2>
+				<h2>Step 2: タスクの経験に最も近い各スケール上のポイントをクリックしてください
+</h2>
 				<section>
-					<h3>Mental demand</h3>
-					<p>How mentally demanding was the task?</p>
+					<h3>知的・知覚的要求</h3>
+					<p>どの程度の知的・知覚的活動(考える，決める，計算する，記憶する，見るなど)を必要としましたか．課題はやさしかったですか難しかったですか，単純でしたか複雑でしたか，正確さが求められましたか大ざっぱでよかったですか</p>
 					<div class="slider"></div>
 				</section>
 				<section>
-					<h3>Physical demand</h3>
-					<p>How physically demanding was the task?</p>
+					<h3>身体的要求</h3>
+					<p>どの程度の身体的活動(押す，引く，回す，制御する，動き回るなど)を必要としましたか．作業はラクでしたかキツかったですか，ゆっくりできましたかキビキビやらなければなりませんでしたか，休み休みできましたか働きづめでしたか</p>
 					<div class="slider"></div>
 				</section>
 				<section>
-					<h3>Temporal demand</h3>
-					<p>How hurried or rushed was the pace of the task?</p>
+					<h3>タイムプレッシャー</h3>
+					<p>仕事のペースや課題が発生する頻度のために感じる時間的切迫感はどの程度でしたか．ペースはゆっくりとして余裕があるものでしたか，それとも速くて余裕のないものでしたか</p>
 					<div class="slider"></div>
 				</section>
 				<section>
-					<h3>Performance</h3>
-					<p>How successful were you in accomplishing what you were asked to do?</p>
+					<h3>作業成績</h3>
+					<p>作業指示者(またはあなた自身)によって設定された課題の目標をどの程度達成できたと思いますか．目標の達成に関して自分の作業成績にどの程度満足していますか</p>
 					<div class="slider performance"></div>
 				</section>
 				<section>
-					<h3>Effort</h3>
-					<p>How hard did you have to work to accomplish your level of performance?</p>
+					<h3>努力</h3>
+					<p>作業成績のレベルを達成・維持するために，精神的・身体的にどの程度いっしょうけんめいに作業しなければなりませんでしたか</p>
 					<div class="slider"></div>
 				</section>
 				<section>
-					<h3>Frustration</h3>
-					<p>How insecure, discouraged, irritated, stressed, and annoyed were you?</p>
+					<h3>フラストレーション</h3>
+					<p>作業中に，不安感，落胆，いらいら，ストレス，悩みをどの程度感じましたか．あるいは逆に，安心感，満足感，充足感，楽しさ，リラックスをどの程度感じましたか</p>
 					<div class="slider"></div>
 				</section>
-				<button>Continue to step 3</button>
+				<button>ステップ3へ</button>
 			</section>
 			<section class="step_3">
 				<h2>Step 3: pair-wise comparison of factors</h2>
-				<p class="alt">Select the member of each pair that provided the most significant source of workload:</p>
+				<p class="alt">次の15の画面のそれぞれで，タスクのワークロード(作業負荷)へのより重要な要因を表す要素をクリックしてください </p>
 			</section>
 			<section class="step_4">
 				<h2>Step 4: resulting data</h2>
 				<div></div>
-				<button>Back to the overview page</button>
+				<button>概要ページに戻る</button>
 			</section>
 		</article>
 		<script src="setup/js/jquery-1.8.3.min.js"></script>
